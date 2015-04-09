@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'TTSymbolFont', :exclusive => true do
+  pod "TTSymbolFont", :path => "../"
+
+  
+end
