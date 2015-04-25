@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		117EE65F01949FA0B0EC286F /* Pods-TTSymbolFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB38A83C5072F5BDD73209A /* Pods-TTSymbolFont-dummy.m */; };
+		1EE17CB3D99DF12F1937A732 /* TTSymbolImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 20847BFC26813AFF5E8094D2 /* TTSymbolImageView.h */; };
+		28FD336436AFE9FD4F56AA9C /* TTSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5653C4E2CEC0F59071D5EAE6 /* TTSymbol.m */; };
+		2B7BA5223C4EF7A92CF2C134 /* TTSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FEC40166C67F5E0AF7E7BDC /* TTSymbol.h */; };
+		3D99570E4D2E858A05ADDF00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E84CE5EF245E96A41F6215 /* Foundation.framework */; };
+		579F4FDC7C104E293F77670C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E84CE5EF245E96A41F6215 /* Foundation.framework */; };
+		5D2DD5270B527A224D188D2A /* UIFont+TTSymbolFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AA26F325E17F42B7702B64 /* UIFont+TTSymbolFont.m */; };
+		789B806A2BD15BCF1FEEF822 /* UIImage+TTSymbolFont.h in Headers */ = {isa = PBXBuildFile; fileRef = A636F9BE3965E94260CED3A9 /* UIImage+TTSymbolFont.h */; };
+		7E57F22F3AEF56727B4248C7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B08E7CAEA3ACDEF7B26A23 /* MapKit.framework */; };
+		A04EFA217E9AB1F13DD523D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C572E16084466FA620FE4B2 /* UIKit.framework */; };
+		C1FC2AFBFA1130C8184C4106 /* UIFont+TTSymbolFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D28CBDA629EE44FA3BC80A /* UIFont+TTSymbolFont.h */; };
+		C61F728417C4918BA1E6567F /* Pods-TTSymbolFont-TTSymbolFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7F5BB69C3ADCCCF201CA6D /* Pods-TTSymbolFont-TTSymbolFont-dummy.m */; };
+		C7CDCE07155C2D694080D65B /* TTSymbolImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0163BF50BC17A2700F063D87 /* TTSymbolImageView.m */; };
+		E4B25B65EBF645C85576C993 /* UIImage+TTSymbolFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8C0268C0207FE4F72E451A /* UIImage+TTSymbolFont.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F8EE8B0EA7A915BBAA737FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209DC94E19C05FC166526660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BBAF41DFD0B47E582D0407;
+			remoteInfo = "Pods-TTSymbolFont-TTSymbolFont";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0163BF50BC17A2700F063D87 /* TTSymbolImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTSymbolImageView.m; sourceTree = "<group>"; };
+		0A8C0268C0207FE4F72E451A /* UIImage+TTSymbolFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TTSymbolFont.m"; sourceTree = "<group>"; };
+		1782DC52B7722747E881B021 /* libPods-TTSymbolFont-TTSymbolFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTSymbolFont-TTSymbolFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D7806CF8AF5960B4A63F83 /* Pods-TTSymbolFont-TTSymbolFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTSymbolFont-TTSymbolFont-prefix.pch"; sourceTree = "<group>"; };
+		20847BFC26813AFF5E8094D2 /* TTSymbolImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTSymbolImageView.h; sourceTree = "<group>"; };
+		21D28CBDA629EE44FA3BC80A /* UIFont+TTSymbolFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+TTSymbolFont.h"; sourceTree = "<group>"; };
+		3A67CE1F75666949AEA740F0 /* Pods-TTSymbolFont-TTSymbolFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSymbolFont-TTSymbolFont.xcconfig"; sourceTree = "<group>"; };
+		3AB568AF8C72F0D6523E2B40 /* Pods-TTSymbolFont-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTSymbolFont-environment.h"; sourceTree = "<group>"; };
+		3CB38A83C5072F5BDD73209A /* Pods-TTSymbolFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTSymbolFont-dummy.m"; sourceTree = "<group>"; };
+		5653C4E2CEC0F59071D5EAE6 /* TTSymbol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTSymbol.m; sourceTree = "<group>"; };
+		6793AA75F26D39CBDBD500A9 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		694251FBEFC875BB07F2FB57 /* Pods-TTSymbolFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSymbolFont.release.xcconfig"; sourceTree = "<group>"; };
+		6BEC53A28F31CC6DBDA903FB /* Pods-TTSymbolFont-TTSymbolFont-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSymbolFont-TTSymbolFont-Private.xcconfig"; sourceTree = "<group>"; };
+		6C572E16084466FA620FE4B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6FF490EFD5A6DE15B17A2E63 /* libPods-TTSymbolFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTSymbolFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEC40166C67F5E0AF7E7BDC /* TTSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTSymbol.h; sourceTree = "<group>"; };
+		95E84CE5EF245E96A41F6215 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A636F9BE3965E94260CED3A9 /* UIImage+TTSymbolFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+TTSymbolFont.h"; sourceTree = "<group>"; };
+		AA32CD32A21653A57434386E /* Pods-TTSymbolFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSymbolFont.debug.xcconfig"; sourceTree = "<group>"; };
+		AC4ECEF8601E71749D9E6E6E /* Pods-TTSymbolFont-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTSymbolFont-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2B08E7CAEA3ACDEF7B26A23 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		B724FDB33C31DC866017B8DA /* Pods-TTSymbolFont-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTSymbolFont-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF7F5BB69C3ADCCCF201CA6D /* Pods-TTSymbolFont-TTSymbolFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTSymbolFont-TTSymbolFont-dummy.m"; sourceTree = "<group>"; };
+		D0AA26F325E17F42B7702B64 /* UIFont+TTSymbolFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+TTSymbolFont.m"; sourceTree = "<group>"; };
+		D28385FD066528F2D701B7FC /* Pods-TTSymbolFont-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSymbolFont-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B0E1EB58B6D0332666C2385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D99570E4D2E858A05ADDF00 /* Foundation.framework in Frameworks */,
+				7E57F22F3AEF56727B4248C7 /* MapKit.framework in Frameworks */,
+				A04EFA217E9AB1F13DD523D7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A891E6845FBF336484CC1600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579F4FDC7C104E293F77670C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153E0B9ACB61E678E41E4810 /* TTSymbolFont */ = {
+			isa = PBXGroup;
+			children = (
+				ABA0A197D476E0E325CE6A09 /* Core */,
+				2321622853D8347BB37D67BC /* Support Files */,
+				D0A0D381CAB30492697F10E9 /* UI */,
+			);
+			name = TTSymbolFont;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2321622853D8347BB37D67BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A67CE1F75666949AEA740F0 /* Pods-TTSymbolFont-TTSymbolFont.xcconfig */,
+				6BEC53A28F31CC6DBDA903FB /* Pods-TTSymbolFont-TTSymbolFont-Private.xcconfig */,
+				CF7F5BB69C3ADCCCF201CA6D /* Pods-TTSymbolFont-TTSymbolFont-dummy.m */,
+				17D7806CF8AF5960B4A63F83 /* Pods-TTSymbolFont-TTSymbolFont-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-TTSymbolFont-TTSymbolFont";
+			sourceTree = "<group>";
+		};
+		28257EFF12AF92A13431AED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E249321A31165513BEB7037 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5306DF2C4FEE212D15DBB43E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FF490EFD5A6DE15B17A2E63 /* libPods-TTSymbolFont.a */,
+				1782DC52B7722747E881B021 /* libPods-TTSymbolFont-TTSymbolFont.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6982B4F4E1DE9E9C5FC95EA6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8531489049B54D1EE104BB4F /* Core */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6E249321A31165513BEB7037 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				95E84CE5EF245E96A41F6215 /* Foundation.framework */,
+				B2B08E7CAEA3ACDEF7B26A23 /* MapKit.framework */,
+				6C572E16084466FA620FE4B2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7FB2BE138AA34C382CADD306 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AFE14F8BA8085C65AA56C742 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		8531489049B54D1EE104BB4F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC40166C67F5E0AF7E7BDC /* TTSymbol.h */,
+				5653C4E2CEC0F59071D5EAE6 /* TTSymbol.m */,
+				21D28CBDA629EE44FA3BC80A /* UIFont+TTSymbolFont.h */,
+				D0AA26F325E17F42B7702B64 /* UIFont+TTSymbolFont.m */,
+				A636F9BE3965E94260CED3A9 /* UIImage+TTSymbolFont.h */,
+				0A8C0268C0207FE4F72E451A /* UIImage+TTSymbolFont.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		86F86D3B29CFDF7B64299214 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				153E0B9ACB61E678E41E4810 /* TTSymbolFont */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		92EEF8E655EE111F3F84958C /* Pods-TTSymbolFont */ = {
+			isa = PBXGroup;
+			children = (
+				B724FDB33C31DC866017B8DA /* Pods-TTSymbolFont-acknowledgements.markdown */,
+				AC4ECEF8601E71749D9E6E6E /* Pods-TTSymbolFont-acknowledgements.plist */,
+				3CB38A83C5072F5BDD73209A /* Pods-TTSymbolFont-dummy.m */,
+				3AB568AF8C72F0D6523E2B40 /* Pods-TTSymbolFont-environment.h */,
+				D28385FD066528F2D701B7FC /* Pods-TTSymbolFont-resources.sh */,
+				AA32CD32A21653A57434386E /* Pods-TTSymbolFont.debug.xcconfig */,
+				694251FBEFC875BB07F2FB57 /* Pods-TTSymbolFont.release.xcconfig */,
+			);
+			name = "Pods-TTSymbolFont";
+			path = "Target Support Files/Pods-TTSymbolFont";
+			sourceTree = "<group>";
+		};
+		ABA0A197D476E0E325CE6A09 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3A6BC539EE4BFF2CD5810 /* Pod */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		AFE14F8BA8085C65AA56C742 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C2DB0FDC4365B6879A6EFF55 /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B3F3A6BC539EE4BFF2CD5810 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6982B4F4E1DE9E9C5FC95EA6 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		C2DB0FDC4365B6879A6EFF55 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				20847BFC26813AFF5E8094D2 /* TTSymbolImageView.h */,
+				0163BF50BC17A2700F063D87 /* TTSymbolImageView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D0A0D381CAB30492697F10E9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7FB2BE138AA34C382CADD306 /* Pod */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		E697D00D17C25F3E3168240C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92EEF8E655EE111F3F84958C /* Pods-TTSymbolFont */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ED18B257BD02A4555674903E = {
+			isa = PBXGroup;
+			children = (
+				6793AA75F26D39CBDBD500A9 /* Podfile */,
+				86F86D3B29CFDF7B64299214 /* Development Pods */,
+				28257EFF12AF92A13431AED3 /* Frameworks */,
+				5306DF2C4FEE212D15DBB43E /* Products */,
+				E697D00D17C25F3E3168240C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FF996C346F24178626405869 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7BA5223C4EF7A92CF2C134 /* TTSymbol.h in Headers */,
+				1EE17CB3D99DF12F1937A732 /* TTSymbolImageView.h in Headers */,
+				C1FC2AFBFA1130C8184C4106 /* UIFont+TTSymbolFont.h in Headers */,
+				789B806A2BD15BCF1FEEF822 /* UIImage+TTSymbolFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16BBAF41DFD0B47E582D0407 /* Pods-TTSymbolFont-TTSymbolFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462EA01FDDDAC76C36A0E5D7 /* Build configuration list for PBXNativeTarget "Pods-TTSymbolFont-TTSymbolFont" */;
+			buildPhases = (
+				6FFD2E36BF562F65F3314194 /* Sources */,
+				0B0E1EB58B6D0332666C2385 /* Frameworks */,
+				FF996C346F24178626405869 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TTSymbolFont-TTSymbolFont";
+			productName = "Pods-TTSymbolFont-TTSymbolFont";
+			productReference = 1782DC52B7722747E881B021 /* libPods-TTSymbolFont-TTSymbolFont.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		24A753211E0365B4B9F6A7C8 /* Pods-TTSymbolFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35961251F62B65CAED53EBC8 /* Build configuration list for PBXNativeTarget "Pods-TTSymbolFont" */;
+			buildPhases = (
+				29AB9F380D7D499C064AE290 /* Sources */,
+				A891E6845FBF336484CC1600 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B24F993AF7FC55C8FDCE11DA /* PBXTargetDependency */,
+			);
+			name = "Pods-TTSymbolFont";
+			productName = "Pods-TTSymbolFont";
+			productReference = 6FF490EFD5A6DE15B17A2E63 /* libPods-TTSymbolFont.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209DC94E19C05FC166526660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 61D393D80B9B1F8712BC6C86 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED18B257BD02A4555674903E;
+			productRefGroup = 5306DF2C4FEE212D15DBB43E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24A753211E0365B4B9F6A7C8 /* Pods-TTSymbolFont */,
+				16BBAF41DFD0B47E582D0407 /* Pods-TTSymbolFont-TTSymbolFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29AB9F380D7D499C064AE290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117EE65F01949FA0B0EC286F /* Pods-TTSymbolFont-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFD2E36BF562F65F3314194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61F728417C4918BA1E6567F /* Pods-TTSymbolFont-TTSymbolFont-dummy.m in Sources */,
+				28FD336436AFE9FD4F56AA9C /* TTSymbol.m in Sources */,
+				C7CDCE07155C2D694080D65B /* TTSymbolImageView.m in Sources */,
+				5D2DD5270B527A224D188D2A /* UIFont+TTSymbolFont.m in Sources */,
+				E4B25B65EBF645C85576C993 /* UIImage+TTSymbolFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B24F993AF7FC55C8FDCE11DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TTSymbolFont-TTSymbolFont";
+			target = 16BBAF41DFD0B47E582D0407 /* Pods-TTSymbolFont-TTSymbolFont */;
+			targetProxy = 7F8EE8B0EA7A915BBAA737FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE80D9F36DA3D09FA8D1935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694251FBEFC875BB07F2FB57 /* Pods-TTSymbolFont.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3D13501ABA58B493F59EEA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ABDC92DAB2E293F476ACD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BEC53A28F31CC6DBDA903FB /* Pods-TTSymbolFont-TTSymbolFont-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TTSymbolFont-TTSymbolFont/Pods-TTSymbolFont-TTSymbolFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		62AEE5F74A34844B2E46CAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BEC53A28F31CC6DBDA903FB /* Pods-TTSymbolFont-TTSymbolFont-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TTSymbolFont-TTSymbolFont/Pods-TTSymbolFont-TTSymbolFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		68046060E72224F169BD5403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		95FB976EE8D35FB01AD03F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA32CD32A21653A57434386E /* Pods-TTSymbolFont.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35961251F62B65CAED53EBC8 /* Build configuration list for PBXNativeTarget "Pods-TTSymbolFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FB976EE8D35FB01AD03F41 /* Debug */,
+				1EE80D9F36DA3D09FA8D1935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462EA01FDDDAC76C36A0E5D7 /* Build configuration list for PBXNativeTarget "Pods-TTSymbolFont-TTSymbolFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62AEE5F74A34844B2E46CAE1 /* Debug */,
+				5ABDC92DAB2E293F476ACD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D393D80B9B1F8712BC6C86 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68046060E72224F169BD5403 /* Debug */,
+				3D13501ABA58B493F59EEA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 209DC94E19C05FC166526660 /* Project object */;
+}

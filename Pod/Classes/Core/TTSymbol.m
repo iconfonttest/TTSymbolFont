@@ -6,6 +6,5 @@
 #import "TTSymbol.h"
 
 const struct TTSymbol TTSymbol = {
-        .Setting = @"setting"
+        .Laptop = @"laptop",
 };
-

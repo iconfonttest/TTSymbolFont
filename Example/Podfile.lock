@@ -1,0 +1,18 @@
+PODS:
+  - TTSymbolFont (0.1.0):
+    - TTSymbolFont/Core (= 0.1.0)
+    - TTSymbolFont/UI (= 0.1.0)
+  - TTSymbolFont/Core (0.1.0)
+  - TTSymbolFont/UI (0.1.0)
+
+DEPENDENCIES:
+  - TTSymbolFont (from `../`)
+
+EXTERNAL SOURCES:
+  TTSymbolFont:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TTSymbolFont: d9a6feee3882f3eb320a0f3ceff827aa02bd5917
+
+COCOAPODS: 0.36.0

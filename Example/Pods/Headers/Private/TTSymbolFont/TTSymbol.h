@@ -6,7 +6,7 @@
 #import <Foundation/Foundation.h>
 
 extern const struct TTSymbol {
-__unsafe_unretained NSString *const Laptop;
-    
+    __unsafe_unretained NSString *const Setting;
 } TTSymbol;
+
 

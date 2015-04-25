@@ -1,0 +1,6 @@
+#include "Pods-TTSymbolFont-TTSymbolFont.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/TTSymbolFont" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TTSymbolFont"
+OTHER_LDFLAGS = ${PODS_TTSYMBOLFONT_TTSYMBOLFONT_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
